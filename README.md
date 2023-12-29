@@ -8,5 +8,5 @@ The general idea is the same as the linear models we discussed in class: each (o
 - Epistasis. There also may be some interaction between a pair of SNPs. This means that a SNP on its own may not be causal (zero weight), but if its partner SNP is also present for that individual, the pair might have some effect on that person's phenotype.
 An external study on this phenotype has also informed us that fortunately, a causal SNP falls into one of the three categories and won't have two or more of these properties (e.g., a SNP with epistatic effect won't have a linear weight or nonlinear weight).  
 The goal was to train a model on the training genotype and phenotype datasets and then use the model to predict a phenotype set based on the given test genotype dataset.  
-  
-  In order to do this, my code features a few different models that I tried. 
+
+In order to do this, my code features a few different models that I tried. 
